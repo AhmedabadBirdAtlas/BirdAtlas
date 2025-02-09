@@ -1355,16 +1355,16 @@
   });
 
   Sammy(function() {
-    this.get('#/ahmedabad/february', function(context) {
-      // Code to render the February map for ahmedabad
-      $('#february').show();
-      $('#july').hide();
+    this.get('#/ahmedabad/December', function(context) {
+      // Code to render the December map for ahmedabad
+      $('#December').show();
+      $('#June').hide();
     });
 
-    this.get('#/ahmedabad/july', function(context) {
-      // Code to render the July map for ahmedabad
-      $('#july').show();
-      $('#february').hide();
+    this.get('#/ahmedabad/June', function(context) {
+      // Code to render the June map for ahmedabad
+      $('#June').show();
+      $('#December').hide();
     });
   });
 
